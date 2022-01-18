@@ -27,6 +27,7 @@ st.write("- Train a GMM on those features")
 st.write("- In prediction, compute the likelihood of each gender using the trained GMM, and pick the most likely gender")
 
 st.subheader("Ready to try it on your voice?")
+st.subheader("Press Start Recording and detect the gender of your voice")
 
 st.sidebar.title("Parameters")
 duration = st.sidebar.slider("Recording duration", 0.0, 10.0, 3.0)
